@@ -178,7 +178,7 @@ http://www.cheatcc.com/psx/codes/gex3.html
 
 ----------------------
 
-##Extra
+## Extra
 
 ```
 N64 Cheats
