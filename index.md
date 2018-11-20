@@ -13,6 +13,7 @@
 | Gex X                          | 0x800A2859 | X          | 2 Bytes | Gex X Location                                   |
 | Gex Y                          | 0x800A285B | Y          | 2 Bytes | Gex Y Location                                   |
 | Gex Z                          | 0x800A285D | Z          | 2 Bytes | Gex Z Location                                   |
+| Gex Z Velocity                 | 0x800A290C | Z Velocity | 2 Bytes | Gex Z Velocity                                   |
 | Gex Z Camera?                  | 0x800A2497 | Z Camera   | ?       | Camera Z Location                                |
 | Debug Mode                     | 0x800A3E9E | 0C/08      | 1 byte  | Toggle Debug Mode                                |
 | Short Short Stats Toggle       | 0x800A3E9F | 00/?4      | 1 byte  | Toggle Short Short Stats                         |
