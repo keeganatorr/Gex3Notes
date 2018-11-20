@@ -1,7 +1,7 @@
 # Gex 3 Notes
 
 # Use attached lua file for Bizhawk
-[.lua file](./Gex 3 - Deep Cover Gecko(USA).lua)
+[.lua file](./SLUS-00806.lua)
 
 ## Playstation Version - SLUS-00806
 
