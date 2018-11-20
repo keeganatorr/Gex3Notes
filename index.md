@@ -49,7 +49,7 @@ Level select
 
 ### Button Cheats
 | Cheat                                            | Button Combo                                                               |
-| ------------------------------------------------ | -------------------------------------------------------------------------- |
+|--------------------------------------------------|----------------------------------------------------------------------------|
 | Blabbermouth Gex (press Select to hear comments) | While paused hold L2 and press Down, Right, Left, Circle, Up, Right        |
 | Debug Menu (press Select during gameplay).       | While paused hold R2 and press Up, Circle, Right, Up, Left, Right, Down    |
 | Invincibility                                    | While paused hold L2 and press Down, Up, Left, Left, Triangle, Right, Down |
