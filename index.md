@@ -28,7 +28,7 @@
 ### Gex Vault Passwords
 
 | Effect                                      | Password                                           |
-|---------------------------------------------|----------------------------------------------------|
+| ------------------------------------------- | -------------------------------------------------- |
 | Eight Hit Paws                              | Square, Diamond, Triangle, Triangle, Star, Diamond |
 | Extra Life                                  | Triangle, Circle, Star, Square, Square, X          |
 | Invincibility                               | Square, Start, Triangle, Square, Triangle, Diamond |
@@ -46,8 +46,9 @@
 | Debug mode                                  | Square, Square, Diamond, Circle, X, X              |
 
 ### Button Cheats
+
 | Cheat                                            | Button Combo                                                               |
-|--------------------------------------------------|----------------------------------------------------------------------------|
+| ------------------------------------------------ | -------------------------------------------------------------------------- |
 | Blabbermouth Gex (press Select to hear comments) | While paused hold L2 and press Down, Right, Left, Circle, Up, Right        |
 | Debug Menu (press Select during gameplay).       | While paused hold R2 and press Up, Circle, Right, Up, Left, Right, Down    |
 | Invincibility                                    | While paused hold L2 and press Down, Up, Left, Left, Triangle, Right, Down |
@@ -55,8 +56,9 @@
 https://wescastro.com/codetwink/cheats.codetwink.com/psx/view/1293/default.htm
 
 ### Gameshark Codes
+
 | Cheat                                             | Gameshark     | Values                |
-|---------------------------------------------------|---------------|-----------------------|
+| ------------------------------------------------- | ------------- | --------------------- |
 | Moon Jump                                         | D00A3E24 0080 |                       |
 |                                                   | 800A290C 006F |                       |
 | Invincible                                        | 800B37B8 002E |                       |
