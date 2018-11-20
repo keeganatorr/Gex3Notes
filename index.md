@@ -45,8 +45,6 @@
 | View the Western video                      | Diamond, Star, Square, X, Triangle, Circle         |
 | Debug mode                                  | Square, Square, Diamond, Circle, X, X              |
 
-Level select
-
 ### Button Cheats
 | Cheat                                            | Button Combo                                                               |
 |--------------------------------------------------|----------------------------------------------------------------------------|
@@ -58,7 +56,7 @@ https://wescastro.com/codetwink/cheats.codetwink.com/psx/view/1293/default.htm
 
 ### Gameshark Codes
 | Cheat                                             | Gameshark     | Values                |
-| ------------------------------------------------- | ------------- | --------------------- |
+|---------------------------------------------------|---------------|-----------------------|
 | Moon Jump                                         | D00A3E24 0080 |                       |
 |                                                   | 800A290C 006F |                       |
 | Invincible                                        | 800B37B8 002E |                       |
