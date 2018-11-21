@@ -1,7 +1,7 @@
 # Gex 3 Notes
 
 # Use attached lua file for Bizhawk
-[.lua file](./SLUS-00806.lua)
+➡️ [.lua file](./SLUS-00806.lua) ⬅️
 
 ## Playstation Version - SLUS-00806
 
@@ -10,7 +10,7 @@
 | Variable                       | Location   | Value      | Size    | Notes                                            |
 | ------------------------------ | ---------- | ---------- | ------- | ------------------------------------------------ |
 | GexVars Pointer                | 0x8009EFC4 | 0x800A2800 | ?       | This points to the variables the Gex player uses |
-| Gex X                          | 0x800A2859 | X          | 2 Bytes | Gex X Location                                   |
+| Gex X                          | 0x800A2859 | X          | 2 Bytes | Gex X Location (written at 0x8006E4E0)           |
 | Gex Y                          | 0x800A285B | Y          | 2 Bytes | Gex Y Location                                   |
 | Gex Z                          | 0x800A285D | Z          | 2 Bytes | Gex Z Location                                   |
 | Gex Z Velocity                 | 0x800A290C | Z Velocity | 2 Bytes | Gex Z Velocity                                   |
@@ -25,6 +25,39 @@
 | Unsure                         | 0x00000000 |            |         |                                                  |
 | Unsure                         | 0x00000000 |            |         |                                                  |
 | Unsure                         | 0x00000000 |            |         |                                                  |
+| Gex Velocity                   | 0x800B3778 | Velocity!  | 1 byte  | Velocity Small                                   |
+| Gex Velocity                   | 0x800B377A | Velocity!  | 1 byte  | Velocity Big                                     |
+| Gex Velocity                   | 0x800B377C | Velocity!  | 1 byte  | Velocity Max                                     |
+
+<!--
+## Assembly (Decompiled Code from NO$PSX)
+
+| Address    | Decompiled Code | Hex        | Comments       | Patch Code | Patch Hex  |
+| ---------- | --------------- | ---------- | -------------- | ---------- | ---------- |
+| 0x8007fb60 | add r2,r3       | 0x00431021 | Gex X Movement | add r2,??h | 0x244200?? |
+|            |                 |            |                |            |            |
+|            |                 |            |                |            |            |
+
+sp 801FFE90+18
+
+current add 8007FD84
+
+
+800a05d0
+
+Gex Movement notes
+
+Code at 80086034 controls camera stuff
+
+mov r8,[r4] // r8 = [r4] // r4 = 0x800A805C8
+
+8007FAE0 nopping this makes you run fast as!
+movhs r3,[r17+254h] // r3 = [0x800B3698+0x254] // r3 = [0x800B38EC] // r3 = 1000
+
+
+800B377A
+
+-->
 
 ### Gex Vault Passwords
 

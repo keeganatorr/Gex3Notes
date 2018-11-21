@@ -66,12 +66,55 @@ while true do
 
 	local controllerAddy = 0x0A3E24
 
-	local test = bit.band(memory.readbyte(controllerAddy), 0x80)
+	local controllerRead = memory.readbyte(controllerAddy)
 
-	if test == 0x80 then
-		gui.text(0,0,test)
+	local PressedX = bit.band(controllerRead, 0x80)
+
+	if PressedX == 0x80 then
+		--[gui.text(0,0,PressedX)]
 		memory.write_s32_le(moonJump,0x0000006F)
 	end
+
+	local smallVelAddy = 0x0B3778
+	local smallVel = memory.readbyte(smallVelAddy)
+	
+	gui.text(0,0,'smallVel: ' .. smallVel)
+
+	local bigVelAddy = 0x0B377A
+	local bigVel = memory.readbyte(bigVelAddy)
+	
+	gui.text(0,0+16,'bigVel: ' .. bigVel)
+
+	local maxVelAddy = 0x0B377C
+	local maxVel = memory.readbyte(maxVelAddy)
+	
+	gui.text(0+200,0+16,'maxVel: ' .. maxVel)
+
+
+	local PressedUp = bit.band(controllerRead, 0x01)
+
+	local PressedLeft = bit.band(controllerRead, 0x02)
+
+	local PressedRight = bit.band(controllerRead, 0x08)
+
+	local PressedDown = bit.band(controllerRead, 0x02)
+
+	--[local tempPos = memory.read_s16_le(0x0B3778)]
+
+	if PressedUp == 0x01 or PressedLeft == 0x02 or PressedRight == 0x08 or PressedDown == 0x02 then
+		--[gui.text(0,0+32,'tempPos: ' .. bigVel)]
+		memory.writebyte(smallVelAddy,0x10)
+		memory.writebyte(bigVelAddy,0xFE)
+		memory.writebyte(maxVelAddy,0xFF)
+	end
+
+	--[[if not PressedUp then
+		gui.text(0,0,PressedUp)
+		memory.write_s32_le(0x8007FD90,0x00431021)
+	end
+		gui.text(0,0,PressedUp)
+		memory.write_s32_le(0x8007FD90,0x00431021)
+	end]]
 
 
 	--[Cheat Handler]
