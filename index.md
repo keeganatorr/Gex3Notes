@@ -79,6 +79,7 @@ movhs r3,[r17+254h] // r3 = [0x800B3698+0x254] // r3 = [0x800B38EC] // r3 = 1000
 | View the Western video                      | Diamond, Star, Square, X, Triangle, Circle         |
 | Debug mode                                  | Square, Square, Diamond, Circle, X, X              |
 
+
 ### Button Cheats
 
 | Cheat                                            | Button Combo                                                               |
@@ -86,6 +87,7 @@ movhs r3,[r17+254h] // r3 = [0x800B3698+0x254] // r3 = [0x800B38EC] // r3 = 1000
 | Blabbermouth Gex (press Select to hear comments) | While paused hold L2 and press Down, Right, Left, Circle, Up, Right        |
 | Debug Menu (press Select during gameplay).       | While paused hold R2 and press Up, Circle, Right, Up, Left, Right, Down    |
 | Invincibility                                    | While paused hold L2 and press Down, Up, Left, Left, Triangle, Right, Down |
+| Level Select                                     | While paused hold R2 and press Left, Triangle, Up, Down, Right, Right      |
 
 https://wescastro.com/codetwink/cheats.codetwink.com/psx/view/1293/default.htm
 
