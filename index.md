@@ -22,7 +22,8 @@
 | Controller Input (one of them) | 0x800A3E24 |            |         |                                                  |
 | L/R Analog Left                | 0x800A3E30 |            |         |                                                  |
 | U/D Analog Left                | 0x800A3E34 |            |         |                                                  |
-| Unsure                         | 0x00000000 |            |         |                                                  |
+| Toggle Room Animation (Enter)  | 0x800A3EA4 | 20         | 1 byte  | Both bytes get used for room change animation    |
+| Toggle Room Animation (Exit)   | 0x800A3EA5 | FF         | 1 byte  | Both bytes get used for room change animation    |
 | Unsure                         | 0x00000000 |            |         |                                                  |
 | Unsure                         | 0x00000000 |            |         |                                                  |
 | Gex Velocity                   | 0x800B3778 | Velocity!  | 1 byte  | Velocity Small                                   |
