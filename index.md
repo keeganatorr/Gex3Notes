@@ -276,6 +276,7 @@ http://www.cheatzilla.com/cgi-bin/czm/cheat/8558
 ➡️ [N64 .lua file](./Gex3N64.lua) ⬅️
 
 ## Gex 3 - Deep Cover Gecko (USA) - N64
+
 | Variable | Location in Ram | Location in IDA | Value | Size    | Notes          |
 | -------- | --------------- | --------------- | ----- | ------- | -------------- |
 | Gex X    | 0x20A6750       | 0x8020A6750     | X     | 2 bytes | Gex X Position |
