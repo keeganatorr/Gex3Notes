@@ -203,12 +203,58 @@ http://www.cheatcc.com/psx/codes/gex3.html
 | Infinite Time                 | 801605BC 1064 |
 
 
+# File Listing
 
-
-
-
-
-
+```
+Gex 3 - Deep Cover Gecko [U] [v1.0] [SLUS-00806]
+.
+├── AKUJI
+│   ├── AKUJI.EXE
+│   ├── BIGFILE.DAT
+│   └── TSANIM.STR
+├── ANIME1.STR
+├── BEANE1.STR
+├── BIGFILE.DAT
+├── CITY1.STR
+├── CLACKER1.STR
+├── CLACKER2.STR
+├── CLACKER3.STR
+├── CLUE1.STR
+├── COMPLETE.STR
+├── CREDITS.STR
+├── DUMMY.DAT
+├── EGYPT01.STR
+├── EIDOS.STR
+├── END.STR
+├── GTOWN2.STR
+├── INTRO.STR
+├── KAINDEMO
+│   └── KAINDEMO.STR
+├── MOB01.STR
+├── MYTH2.STR
+├── OZ01.STR
+├── PIRATE45.STR
+├── SLUS_008.06
+├── SLUS_008.idb
+├── SNOW96.STR
+├── SYSTEM.CNF
+├── WAR01.STR
+├── WARZONE
+│   ├── DEMO.STR
+│   ├── EIDOS.STR
+│   ├── END.STR
+│   ├── INFLIGHT.STR
+│   ├── MUSIC.XA
+│   ├── PLAYER.STR
+│   ├── PUMPKIN.STR
+│   ├── SUB1_2.STR
+│   ├── TITLES.STR
+│   ├── TRANSPOR.STR
+│   ├── VICTORY.STR
+│   ├── WARZONE.EXE
+│   └── WARZONE.WDG
+└── WWGEX1.STR
+```
 
 
 
@@ -223,3 +269,13 @@ http://www.kai666.com/cheat-codes-n64/gex_64_enter_gecko_&_gex_3_deep_cover_geck
 http://www.gamegenie.com/cheats/gameshark/n64/gex_3_deep_cover_gecko.html
 http://www.cheatzilla.com/cgi-bin/czm/cheat/8558
 ```
+
+## N64 Info
+
+## Gex 3 - Deep Cover Gecko (USA) - N64
+| Variable | Location in Ram | Location in IDA | Value | Size    | Notes          |
+| -------- | --------------- | --------------- | ----- | ------- | -------------- |
+| Gex X    | 0x20A6750       | 0x8020A6750     | X     | 2 bytes | Gex X Position |
+| Gex Y    | 0x20A6752       | 0x8020A6752     | Y     | 2 bytes | Gex Y Position |
+| Gex Z    | 0x20A6754       | 0x8020A6754     | Z     | 2 bytes | Gex Z Position |
+|          |                 |                 |       |         |                |
