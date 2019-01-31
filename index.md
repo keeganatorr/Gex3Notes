@@ -1,7 +1,7 @@
 # Gex 3 Notes
 
 # Use attached lua file for Bizhawk
-➡️ [.lua file](./SLUS-00806.lua) ⬅️
+➡️ [PSX .lua file](./SLUS-00806.lua) ⬅️
 
 ## Playstation Version - SLUS-00806
 
@@ -271,6 +271,9 @@ http://www.cheatzilla.com/cgi-bin/czm/cheat/8558
 ```
 
 ## N64 Info
+
+# Use attached lua file for Bizhawk
+➡️ [N64 .lua file](./Gex3N64.lua) ⬅️
 
 ## Gex 3 - Deep Cover Gecko (USA) - N64
 | Variable | Location in Ram | Location in IDA | Value | Size    | Notes          |
