@@ -67,6 +67,7 @@ Textures in .LEV files are `ABGR (1555)` format.
 | Saucer Section      | PZYPRXYL |
 
 #### Level Map
+
 | Level                                  | Number | Codename(Level Select Menu) |
 | -------------------------------------- | ------ | --------------------------- |
 | `THE DOME`                             | `50`   | ``                          |
