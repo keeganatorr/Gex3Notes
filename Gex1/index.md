@@ -43,27 +43,28 @@ Textures in .LEV files are `ABGR (1555)` format.
 
 #### Passwords
 
-World Password
-1. Cemetery
-Grave Danger SVZFKHGP 
-Tomato Soup BXRFYHGP
-Disco Inferno ZVTCYHGP
-2. New Toonland
-Pow! KXVKRHKP
-Twin Towers CVHCSHKP
-Rock it! SVKLPHKP
-Knock! Knock! CVBLPHKP
-3. Jungle Isle
-Feeding Frenzy RVTCSHGP
-Congo Chaos XVVBRHKP
-4. Kung Fuville
-Sumo City YTCHPHKP
-Fish Bait ZTDHPHKP
-Chop Chop DXVGRHKP
-5. Rezopolis
-Knight Fever GYVYRHKP
-6. Bonus: Planet X
-Saucer Section PZYPRXYL
+| Level               | Password |
+|---------------------|----------|
+| **Cemetery**        |          |
+| Grave Danger        | SVZFKHGP |
+| Tomato Soup         | BXRFYHGP |
+| Disco Inferno       | ZVTCYHGP |
+| **New Toonland**    |          |
+| Pow!                | KXVKRHKP |
+| Twin Towers         | CVHCSHKP |
+| Rock it!            | SVKLPHKP |
+| Knock! Knock!       | CVBLPHKP |
+| **Jungle Isle**     |          |
+| Feeding Frenzy      | RVTCSHGP |
+| Congo Chaos         | XVVBRHKP |
+| **Kung Fuville**    |          |
+| Sumo City           | YTCHPHKP |
+| Fish Bait           | ZTDHPHKP |
+| Chop Chop           | DXVGRHKP |
+| **Rezopolis**       |          |
+| Knight Fever        | GYVYRHKP |
+| **Bonus: Planet X** |          |
+| Saucer Section      | PZYPRXYL |
 
 #### Level Map
 | Level                                  | Number | Codename(Level Select Menu) |
