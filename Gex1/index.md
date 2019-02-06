@@ -1,6 +1,6 @@
 # Gex 1 PC
 
-- [Back](./index.md)
+- [Back](../index.md)
 -----
 ## Notes
 
@@ -10,8 +10,9 @@ gex.exe XAchWieGutDasKeinerWeis
 ```
 
 #### RAM MAP
+
 | Address      | Name                                  | Notes                                                                                                                                  |
-|--------------|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| ------------ | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | `0x004A23C4` | Score                                 |                                                                                                                                        |
 | `0x00456B00` | Lives                                 |                                                                                                                                        |
 | `0x004A281C` | Health                                |                                                                                                                                        |
@@ -25,8 +26,9 @@ gex.exe XAchWieGutDasKeinerWeis
 Textures in .LEV files are `ABGR (1555)` format.
 
 #### Secret Codes
+
 | Address  | String                   | Flipped                  | Notes                            | Entry Location             | `0x455B38` wordvalue |
-|----------|--------------------------|--------------------------|----------------------------------|----------------------------|----------------------|
+| -------- | ------------------------ | ------------------------ | -------------------------------- | -------------------------- | -------------------- |
 | 00455A7C | `llewsortaytrap`         | `partyatroswell`         | `Planet X Level Select`          | `Title Screen`             |                      |
 | 00455A8C | `ybabresolami`           | `imaloserbaby`           | `Secret Credits`                 | `Title Screen`             |                      |
 | 00455A9C | `retsamneknurd`          | `drunkenmaster`          | `Invincibility`                  | `In Level (PAUSED)`        |                      |
@@ -65,7 +67,7 @@ Saucer Section PZYPRXYL
 
 #### Level Map
 | Level                                  | Number | Codename(Level Select Menu) |
-|----------------------------------------|--------|-----------------------------|
+| -------------------------------------- | ------ | --------------------------- |
 | `THE DOME`                             | `50`   | ``                          |
 | `CEMETARY`                             | `49`   | ``                          |
 | `GRAVE DANGER`                         | `0`    | `GRAVE1`                    |
@@ -107,6 +109,7 @@ hook debug print into outputdebugstring
 File loading function @ 0x41F2D0
 
 SND Table
+
 | SND                    | Num |
 |------------------------|-----|
 | World Map Sound        | 9   |

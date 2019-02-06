@@ -1,6 +1,6 @@
 # Gex 3 Notes
 
-- [Back](./index.md)
+- [Back](../index.md)
 # Use attached lua file for Bizhawk
 ➡️ [PSX .lua file](./SLUS-00806.lua) ⬅️
 
